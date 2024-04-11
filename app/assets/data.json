@@ -1,0 +1,29 @@
+{
+    "data": [
+        {
+            "id": "Integer",
+            "type": "feature",
+            "attributes": {
+                "external_id": "String",
+                "magnitude": "Decimal",
+                "place": "String", //NO PUEDE SER NULO
+                "time": "String",
+                "tsunami": "Boolean",
+                "mag_type": "String", //NO PUEDE SER NULO
+                "title": "String", //NO PUEDE SER NULO
+                "coordinates": { //NO PUEDE SER NULO
+                    "longitude": "Decimal",
+                    "latitude": "Decimal"
+                }
+            },
+            "links": {
+                "external_url": "String" //NO PUEDE SER NULO
+            }
+        }
+    ],
+    "pagination": {
+        "current_page": "Integer",
+        "total": "Integer",
+        "per_page": "Integer"
+    }
+}
